@@ -263,7 +263,7 @@ public class LookAndSaySequenceExample
     System.out.println(anotherFunction.apply(number, 7));
     System.out.println();
 
-    System.out.println("Using currying (without passing List): ");
+    System.out.println("Using currying: ");
     final Function1<Integer, Function1<String, List<String>>> lookAndSayWithCurrying =
       new Function1<Integer, Function1<String, List<String>>>() {
         @Override
