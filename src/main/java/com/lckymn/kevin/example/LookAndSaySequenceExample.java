@@ -180,8 +180,8 @@ public class LookAndSaySequenceExample
     final String number = "1";
     final int howMany = 10;
 
-    String result1 = number;
     System.out.println("Using LookAndReadUsingForLoop: ");
+    String result1 = number;
     System.out.print(result1 + " ");
     for (int i = 1; i < howMany; i++)
     {
